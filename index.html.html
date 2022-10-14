@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sorting algorithms</title>
+</head>
+<body>
+
+<h1>what is  sorting algorithm </h1>
+<B> it is mainly re arranging using the comparison operator </b>
+<p> sorting algorithm means re arranging in given array or list
+    w.r.t comparison operator 
+    <i>the comparison opertor is used to decide and new order of elements
+        in the respective data strucutes  </i>
+        <a href="https://www.geeksforgeeks.org/sorting-algorithms/">refer here</a>
+        
+
+</p>
+<p><b> there are so many sorting algorithms </b>
+<p></p>
+    1. <a href:"https://www.geeksforgeeks.org/selection-sort/">selection sort</a>
+    <p></p>
+    <p> !! selection sort is it sorts array in <i>minimum element</i> 
+      if we take ascending order.
+      This algorithms <i>maintain two sub arrays</i>
+      1. subarray which is sorted 
+      2. the remaining is unsorted<p></p>
+      <b>in every iteration the minimum element is chosen from the unsorted  subarray 
+        and the picked and move to sorted sub array. 
+
+
+      </b>
+      <h2><a href:="https://www.geeksforgeeks.org/bubble-sort/">bubble sort </a></h2>
+      <p>
+         BUBBLE SORT --> repeatedly swapping the adjacent elements if they are in wrong order
+         . 
+         <i>this algorithm is not recommended for large data</i> 
+         <b>it has worst time complexity quite high </b>
+           
+      </p>
+      <p><a href="https://www.geeksforgeeks.org/insertion-sort/"=> insertion sort</a>
+    <p>
+    </p>
+    in this sorting algorithm . it array which virtually splits into a 
+    1. sorted and 2. unsupported part  the values from the unsupported part are picked and placed in correct position in the sorted part.
+    like we take value and sorted and make them inorder with the sorted part. 
+    <p></p><b><u>characteristics of insertion sort</u></b> 
+    -> it is simple algorithm with simple implementation 
+    --> it is effective for small data values 
+--> Adaptive in nature 
+--->  it is appopriate for already partially sorted . 
+
+</p> intertion sort take maixmum time to sort it elements are sorted in <i>reverse order</i>
+    </p>
+    <p><a href="https://www.geeksforgeeks.org/recursive-bubble-sort/">RECURSIVE BUBBLE SORT</a></p>
+    <P>bubble sort is simplest algorithm for <i>repeatedly switching</i> the adjacent elements if they are in wrong order </P>
+       <p> bubble sort has no performance advantage / implementation . first it send largest element to last and then next second largest-->  second  end position</p>
+
+
+<h><a href="https://www.geeksforgeeks.org/recursive-bubble-sort/">REVERSED INSERTION SORT</a>
+</h>
+<p>it as the same as we sort playing cards as in our hands<br>
+     it is iterative algorithm as like recursive bubble sort<br>
+    this too have no performance/implemetation advantage  as the recursive bubble sort<br>
+    </p>
+    <p><a href="https://www.geeksforgeeks.org/merge-sort/">MERGE SORT ALGORITHM</a><br>
+        the merge is based on <b>Divide and conquer</b> <i>paradigm</i><br>
+        the array is intially  <b>divided into </b> two equal halves and then they are combined in sorted manner
+         <br> finally , when both halves is sorted and then merger operation is process of two smaller sorted arrays and combin them to eventuall make a larger one .
+  </p>
+<p>
+    <a href="https://www.geeksforgeeks.org/quick-sort/">QUICK SORT</a> <br>
+     similarly as the quick sort it is also based on divide an conquer . IT picks an element as a pivort and partitions the given around
+     the picked pivot. <br>
+     there are different version of quicksort that pick pivot in different ways <br>
+--> always pick the first element as a pivot<br>
+--> always pick the last element as a pivot<br>
+--> pick a random element as a pivot<br>
+--> pick median as the pivot<br>
+<i>the key  process in quick sort is partition ()</i><br>
+  the target of partitions is, given an array and an element x of an array as the pivot
+  ,pout x at it's correct position in sorted array and put all smalled elements (smaller than x) before x, and put all greater elements (greater than x ) after x. 
+  All this should done in <b>liner time </b> <br>
+  <img src="https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png" alt="how quick sort works ">
+  
+  <p><b>Partition Algorithm :</b></p>  <br>
+  
+  There can be many ways to do partition, following psuedocode adopts the method given in CLRS book. 
+  this logic is simple . we start with leftmost element and keeptrack of the index of smaller(or equal to ) elements as i. while traversing , if we find a 
+  smallers element, we swap the current element with arr[i]. otherwiuse, we ignore the current element . 
+  
+</p>
+<p><a href="https://www.geeksforgeeks.org/heap-sort/">HEAP SORT</a></p><br>
+--> heap sort is a compariosn based sorting techinique based on <b>binary heap</b> data structure
+it is like <i>selection sort</i> we first find minimum element and place the minimum at thge beginning . and iterating the same process
+1. Heap sort is an in-place algorithm (which tranforms input without using any extra memory for its operation )<br>
+2. it's typical implementation is not stable , but can be made stable<br>
+3. It can be much slower alt=
+
+</body>
+</html>
